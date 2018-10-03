@@ -76,12 +76,7 @@ export default class MyProfile extends React.Component {
   };
 
   changeName = async(text, field) => {
-    /*let keys = ['name', 'email','avatarSource'];
-    AsyncStorage.multiRemove(keys, (err) => {
-      // keys k1 & k2 removed, if they existed
-      // do most stuff after removal (if you want)
-    });
-  */
+
     this.setState({
       changeName: false,
     });

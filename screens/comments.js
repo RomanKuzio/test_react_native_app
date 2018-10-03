@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import axios from 'axios';
 import Modal from "react-native-modal";
 import { Alert, StyleSheet, View } from "react-native";
@@ -167,7 +167,7 @@ export default class Comments extends React.Component {
           </View>
         </Modal>
         <Content>
-          <SearchBar onSearch={(val)=>this.onChange(val)}/>
+          <SearchBar onChageText={(val)=>this.onChange(val)}/>
           <Button onPress={()=>this._toggleModal()} block info>
               <Text>Додати коментар</Text>
             </Button>
