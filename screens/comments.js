@@ -148,6 +148,7 @@ export default class Comments extends React.Component {
                 </Item>
                 <Item>
                   <Input onChangeText={(text)=>this.UpdateInfo(text,"id")} placeholder="Id" />
+
                 </Item>
                 <Item>
                   <Input onChangeText={(text)=>this.UpdateInfo(text,"body")} placeholder="Body" />
