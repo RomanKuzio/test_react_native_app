@@ -168,6 +168,7 @@ export default class Comments extends React.Component {
         </Modal>
         <Content>
           <SearchBar onChangeText={(val)=>this.onChange(val)}/>
+
           <Button onPress={()=>this._toggleModal()} block info>
               <Text>Додати коментар</Text>
             </Button>
